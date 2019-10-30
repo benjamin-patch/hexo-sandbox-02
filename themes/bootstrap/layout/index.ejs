@@ -1,1 +1,3 @@
-This is the index.ejs file.
+<% site.posts.forEach(function(post){ %>
+    <li><%- link_to(post.path, post.title) %></li>
+<% }) %>
