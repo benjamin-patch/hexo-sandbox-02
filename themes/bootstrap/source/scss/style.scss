@@ -1,4 +1,11 @@
 // style.scss
 
+// Variable overrides
+$body-bg: rgb(235, 235, 235);
+$theme-colors: (
+  "primary": #7000d9,
+  "danger": #ff4136
+);
+
 // Include all of Bootstrap
 @import "../../../../node_modules/bootstrap/scss/bootstrap.scss";
