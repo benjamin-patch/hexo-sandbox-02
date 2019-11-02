@@ -10,12 +10,14 @@
 
     <title>Bootstrap Theme</title>
   </head>
-  <body class="container">
+  <body>
     <%- partial('_partial/header', {title: 'Bootstrap Theme'}) %>
 
-    <%- body %>
+    <div class="container">
+      <%- body %>
 
-    <%- partial('_partial/footer') %>
+      <%- partial('_partial/footer') %>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
